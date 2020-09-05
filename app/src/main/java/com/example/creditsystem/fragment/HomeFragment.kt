@@ -1,4 +1,4 @@
-package com.example.creditsystem.ui.home
+package com.example.creditsystem.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.example.creditsystem.R
+import com.example.creditsystem.viewmodel.HomeViewModel
 
 class HomeFragment : Fragment() {
 
